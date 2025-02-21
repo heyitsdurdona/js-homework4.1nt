@@ -155,4 +155,74 @@
 // console.log(res)
 
 
-//? 
+// //?  Massiv elementlarini vergul bilan ajratilgan ko‘rinishda chiqaring (join).
+// let myList = [1, 2, 3, 4, 2, 4, 9];
+// let res = myList.join(', ')
+// console.log(res)
+
+
+// //? Massivning 3-6 indekslar orasidagi qismini ajrating (splice).
+// let myList = [1, 2, 4, 23, 5, 3, 8, 5, 3, 7, 3];
+// let res = myList.splice(3, 6);
+// console.log(res)
+
+
+// //? Berilgan massivning o‘rtasidagi barcha elementlarni o‘chirib tashlang (splice).
+// let myList = [1, 2, 4, 23, 5, 3, 8, 5, 3, 7, 3];
+// let res = myList.splice(3, 6);
+// console.log(myList)
+
+
+// //? Har bir elementga 2 qo‘shib, yangilangan massivni hosil qiling (for).
+// let myList = [1, 3, 5, 3, 7, 9, 3, 64];
+// let myarr = [];
+// for (let el of myList){
+//     myarr.push(el+2)
+// }
+// console.log(myarr)
+
+
+// //?  Berilgan sonlar massivida musbat va manfiy sonlarni alohida massivlarga ajrating (for).
+// let myList = [1, 3, 5, 3, 7, 9, 3, 64];
+// let pos= [];
+// let min =[];
+// for (let el of myList){
+//     if (el>0){
+
+//         pos.push(el);
+//     }
+//     else{
+//         min.push(el)
+//     }
+// }
+// console.log(pos);
+// console.log(min);
+
+
+
+// //?  Berilgan massivning har bir elementini kvadratga oshiring (for).
+// let myList = [1, 2, 4, 5, 3, 5, 9];
+// let res = [];
+// for (let el of myList){
+//     res.push(el**2);
+// }
+// console.log(res)
+
+
+// //? Massiv elementlarini teskari tartibda ekranga chiqaring (for).
+// let myList = [13, 54, 45, 645, 99];
+// let res = [];
+// for (let el of myList){
+//     res.push(el);
+// }
+// console.log(res);
+
+
+
+// //?  Har bir elementni uning indeks raqami bilan ekranga chiqaring (for).
+// let myList = [13, 54, 45, 645, 99];
+// for (let i = 0; i<myList.length; i++){
+//     console.log(i, myList[i])
+// }
+
+
