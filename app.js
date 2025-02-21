@@ -226,3 +226,86 @@
 // }
 
 
+// //? Yangi massiv hosil qilib, faqat musbat elementlarni saqlang (for).
+// let myList =  [1, 3, 2, 5, 3, 6, 2, -3, 6, -89];
+// let res  = [];
+// for (let el of myList){
+//     if (el>0){
+//         res.push(el)
+//     }
+// }
+// console.log(res)
+
+
+// //? 0 bo‘lgan barcha elementlarni olib tashlang (splice, for).
+// let myarr = [1, 5, 2, 0, 8, 9, 0, 2, 0];
+
+// for (let i = 0; i<myarr.length; i++){
+//     if (myarr[i]===0){
+//         myarr.splice(i, 1);
+//     }
+// }
+// console.log(myarr)
+
+
+// //?  Takrorlangan elementlarni olib tashlab, yangi massiv hosil qiling (for).
+// let myarr = [1, 5, 2, 0, 8, 9, 0, 2, 0];
+// let res = new Set(myarr);
+// console.log(res)
+
+
+// //? Massivni teng ikkiga ajrating (splice).
+// let myarr = [1, 5, 2, 0, 8, 9, 0, 2, 0];
+// let start = myarr.splice(0, myarr.length/2);
+// let end = (start+1, myarr.length-1);
+// console.log(start);
+// console.log(end)
+
+
+// //? Har bir ikkinchi elementni olib tashlang (splice).
+// let myarr = [1, 5, 2, 0, 8, 9, 0, 2, 0];
+// let res = []
+// for (let i = 0; i<myarr.length; i++){
+//     if (i%2==0){
+//         res.push(myarr[i])
+//     }
+// }
+// console.log(res)
+
+
+// //?  Ikki massivni birlashtirib, yangi massiv hosil qiling (concat).
+// let myarr = [1, 4, 2, 5, 3, 5];
+// let myList = [4, 5,2, 5, 2, 5, 0];
+// let res = myarr.concat(myList);
+// console.log(res)
+
+
+// //?  Har bir elementni 2 ga bo‘lib, natijani yangi massivga yozing (for).
+// let myarr = [1, 4, 2, 5, 3, 5];
+// let res = [];
+// for (let el of myarr){
+//     res.push(el/2);
+// }
+// console.log(res)
+
+
+// //?   Musbat sonlarni 1, manfiy sonlarni -1 bilan almashtiring (for).
+// let myarr = [1, 4, 2, 5, 3, 5];
+// for (let i = 0; i < myarr.length; i++) {
+//     if (myarr[i] > 0) {
+//         myarr[i] = 1;
+//     } else {
+//         myarr[i] = -1;
+//     }
+// }
+// console.log(myarr);
+
+
+// //? Massiv elementlarini bo‘sh joy bilan ajratilgan holda stringga o‘tkazing (join).
+// let myarr = ['q', '8', 'hjkdf', 'o'];
+// let res = myarr.join(' ')
+// console.log(res)
+
+
+// https://github.com/heyitsdurdona/storm-fn
+// https://storm-fn.vercel.app/index.html#
